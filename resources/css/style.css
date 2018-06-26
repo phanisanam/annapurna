@@ -138,7 +138,7 @@ header {
   width: 1140px;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-43%, -43%);
 }
 .logo {
   height: 100px;
@@ -276,24 +276,94 @@ header {
   width: auto;
   margin-right: 10px;
 }
-
 /* ----------------------------------------------- */
 /* CITIES */
 /* ----------------------------------------------- */
+
 
 .box img {
   width: 100%;
   height: auto;
   margin-bottom: 15px;
+    text-decoration: none;
+     transform: scale(1.15);
+  transition: transform 0.5s, opacity 0.5s;
+    
+}
+
+.box img:hover{
+    
+    opacity: 1;
+  transform: scale(1.03);
 }
 
 .city-feature {
   margin-bottom: 5px;
+    
+    color:#fff;
 }
 .icon-small {
   display: inline-block;
   width: auto;
   text-align: center;
   color: #f18221;
-  font-size: 120px;
+  font-size: 120;
 }
+.section-cities{
+    background-color: #123;
+    color:#e67e22 ;
+    
+}
+.box a{
+    text-decoration: none;
+    color:#e67e22 ;
+    
+
+}
+
+.box a:hover,
+.box a:active {
+color:#f4f4f4; 
+  border-bottom: 2px solid  transparent #e67e22;
+    
+    
+}
+/* ----------------------------------------------- */
+/* customer-section */
+/* ----------------------------------------------- */
+.customers {
+background-image: linear-gradient(rgba(0, 0, 0, 0.78), rgba(0, 0, 0, 0.78)), url(img/back-customers.jpg);
+background-size: cover;
+    color: #fff;
+    background-attachment: fixed;
+}
+blockquote{
+    padding: 2%;
+    font-style: italic;
+    line-height: 150%;
+    position: relative;
+}
+blockquote:before{
+    content: "\201C";
+    font-size: 400%;
+    display: block;
+    position:absolute;
+    top:0%;
+    left: -3px;
+}
+cite{
+    font-size: 90%;
+    margin-top: 25px;
+    display: block;
+}
+cite img{
+    height:50px;
+    border-radius: 50%;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+
+
+
+
