@@ -4,7 +4,7 @@ A healthy food service website
 
 The website is a savoury website for a company that offers food delivery to people who do not have time ti cook for themselves.
 
-The website is based on grid system , with some jquery animations.It is mainly built up from the base on HTML and CSS. It doesnt not use any external theme extracts.
+The website is based on grid system.It is mainly built up from the base on HTML and CSS. It doesnt not use any external theme extracts.
 
 This Omnifood design is made as per shown in Jonas Schmedtmann's course. My focus here was not on the animations but on the html css teechniques applied here to make this website.This can act as an very useful theme design for other products as well. The link for the author's profile and his course is provided below.
 
